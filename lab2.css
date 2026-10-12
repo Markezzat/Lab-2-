@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #ececec;
+}
+
+.first {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+
+.sec {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+
+.sec a {
+    color: white;
+}
+
+.about {
+    padding: 10px;
+}
+
+.third {
+    padding: 10px;
+}
+
+.forth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.P1,
+.P2,
+.P3 {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 3px;
+    width: 150px;
+}
+
+.contactme {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    padding: 7px;
+}
+
+.contact-form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+}
